@@ -1,0 +1,18 @@
+{
+    "terminal.integrated.defaultProfile.windows": "PowerShell with UV",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell with UV": {
+            "source": "PowerShell",
+            "args": [
+                "-NoExit",
+                "-File",
+                "${workspaceFolder}/dev.ps1"
+            ]
+        }
+    },
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "files.encoding": "utf8bom",
+    "terminal.integrated.defaultEncoding": "utf8",
+    "files.autoGuessEncoding": false
+} 
